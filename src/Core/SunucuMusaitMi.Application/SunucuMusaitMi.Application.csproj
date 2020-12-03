@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.2" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\SunucuMusaitMi.Core\SunucuMusaitMi.Core.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SunucuMusaitMi.Persistance\SunucuMusaitMi.Persistance.csproj" />
+    <ProjectReference Include="..\SunucuMusaitMi.Domain\SunucuMusaitMi.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

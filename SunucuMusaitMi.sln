@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F7E5D97B-09DE-4AE6-ABDD-06CC88927EF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4128BA78-4476-4ABD-B8AF-F4A19531F7EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{9E687BF0-F925-4D7F-BCE7-E58C0B730AF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A5D61BD0-5180-496D-A90F-D48334EE2A21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA452250-1B0D-4DAF-8CB9-59A73620E77F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{27B5BD2E-9CAE-421C-8502-74C1DD8B02CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunucuMusaitMi.Core", "src\Common\SunucuMusaitMi.Core\SunucuMusaitMi.Core.csproj", "{A68EF2D8-C586-4A9A-933C-08F6D9C1E9C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunucuMusaitMi.WebApi", "src\Presentation\SunucuMusaitMi.WebApi\SunucuMusaitMi.WebApi.csproj", "{048023AD-CFB2-47F7-99F2-DCDAE3D6A490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunucuMusaitMi.Domain", "src\Core\SunucuMusaitMi.Domain\SunucuMusaitMi.Domain.csproj", "{F771A1AB-35A6-4467-A8A3-2E88AE1E7CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunucuMusaitMi.Application", "src\Core\SunucuMusaitMi.Application\SunucuMusaitMi.Application.csproj", "{9E57D499-B096-4EE9-9032-EEE0224EE4EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SunucuMusaitMi.Persistance", "src\Infrastructure\SunucuMusaitMi.Persistance\SunucuMusaitMi.Persistance.csproj", "{9E8B8BBF-3756-4EC4-958B-C10BA096A22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunucuMusaitMi.WebUI", "src\Presentation\SunucuMusaitMi.WebUI\SunucuMusaitMi.WebUI.csproj", "{1152630F-883F-45EA-BA15-18D219FAEF0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunucuMusaitMi.ConsoleRequester", "src\Presentation\SunucuMusaitMi.ConsoleRequester\SunucuMusaitMi.ConsoleRequester.csproj", "{2EED6269-1DB4-4551-9AA5-1BB72BFC9504}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A68EF2D8-C586-4A9A-933C-08F6D9C1E9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68EF2D8-C586-4A9A-933C-08F6D9C1E9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68EF2D8-C586-4A9A-933C-08F6D9C1E9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68EF2D8-C586-4A9A-933C-08F6D9C1E9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048023AD-CFB2-47F7-99F2-DCDAE3D6A490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048023AD-CFB2-47F7-99F2-DCDAE3D6A490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048023AD-CFB2-47F7-99F2-DCDAE3D6A490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048023AD-CFB2-47F7-99F2-DCDAE3D6A490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F771A1AB-35A6-4467-A8A3-2E88AE1E7CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F771A1AB-35A6-4467-A8A3-2E88AE1E7CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F771A1AB-35A6-4467-A8A3-2E88AE1E7CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F771A1AB-35A6-4467-A8A3-2E88AE1E7CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E57D499-B096-4EE9-9032-EEE0224EE4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E57D499-B096-4EE9-9032-EEE0224EE4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E57D499-B096-4EE9-9032-EEE0224EE4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E57D499-B096-4EE9-9032-EEE0224EE4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8B8BBF-3756-4EC4-958B-C10BA096A22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8B8BBF-3756-4EC4-958B-C10BA096A22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8B8BBF-3756-4EC4-958B-C10BA096A22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8B8BBF-3756-4EC4-958B-C10BA096A22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1152630F-883F-45EA-BA15-18D219FAEF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1152630F-883F-45EA-BA15-18D219FAEF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1152630F-883F-45EA-BA15-18D219FAEF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1152630F-883F-45EA-BA15-18D219FAEF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EED6269-1DB4-4551-9AA5-1BB72BFC9504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EED6269-1DB4-4551-9AA5-1BB72BFC9504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EED6269-1DB4-4551-9AA5-1BB72BFC9504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EED6269-1DB4-4551-9AA5-1BB72BFC9504}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7E5D97B-09DE-4AE6-ABDD-06CC88927EF9} = {CA452250-1B0D-4DAF-8CB9-59A73620E77F}
+		{4128BA78-4476-4ABD-B8AF-F4A19531F7EA} = {CA452250-1B0D-4DAF-8CB9-59A73620E77F}
+		{9E687BF0-F925-4D7F-BCE7-E58C0B730AF7} = {CA452250-1B0D-4DAF-8CB9-59A73620E77F}
+		{A5D61BD0-5180-496D-A90F-D48334EE2A21} = {CA452250-1B0D-4DAF-8CB9-59A73620E77F}
+		{A68EF2D8-C586-4A9A-933C-08F6D9C1E9C4} = {4128BA78-4476-4ABD-B8AF-F4A19531F7EA}
+		{048023AD-CFB2-47F7-99F2-DCDAE3D6A490} = {9E687BF0-F925-4D7F-BCE7-E58C0B730AF7}
+		{F771A1AB-35A6-4467-A8A3-2E88AE1E7CF3} = {F7E5D97B-09DE-4AE6-ABDD-06CC88927EF9}
+		{9E57D499-B096-4EE9-9032-EEE0224EE4EE} = {F7E5D97B-09DE-4AE6-ABDD-06CC88927EF9}
+		{9E8B8BBF-3756-4EC4-958B-C10BA096A22A} = {A5D61BD0-5180-496D-A90F-D48334EE2A21}
+		{1152630F-883F-45EA-BA15-18D219FAEF0E} = {9E687BF0-F925-4D7F-BCE7-E58C0B730AF7}
+		{2EED6269-1DB4-4551-9AA5-1BB72BFC9504} = {9E687BF0-F925-4D7F-BCE7-E58C0B730AF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF796593-8DFB-4934-B928-517DD56180FE}
+	EndGlobalSection
+EndGlobal

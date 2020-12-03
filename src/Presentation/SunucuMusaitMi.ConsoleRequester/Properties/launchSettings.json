@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SunucuMusaitMi.ConsoleRequester": {
+      "commandName": "Project",
+      "commandLineArgs": "-h 212.68.35.36 -n ercan"
+    }
+  }
+}

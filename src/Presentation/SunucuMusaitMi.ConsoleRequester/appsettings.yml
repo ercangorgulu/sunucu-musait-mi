@@ -1,0 +1,9 @@
+ServerConfiguration:
+  ServerIp: 212.68.35.36
+  ApiUrl: https://localhost:44368/api
+  AuthToken: vuxZF2ATdaUQKEBN
+MessageConfiguration:
+  Title: Sunucu dolu
+  Message: |
+    Sunucu {0} tarafından kullanılıyor
+    Bu popup'ı kapattığınızda bağlanmaya devam edeceksiniz.

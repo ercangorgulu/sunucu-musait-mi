@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ServerViewModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div align="center">
+        <table class="table" width="650" height="800" style="margin-top:50px;">
+            <tr>
+                <th valign="middle">
+                    Server IP
+                </th>
+                <th valign="middle">
+                    Uygunluk Durumu
+                </th>
+                <th valign="middle">
+                    Son Bağlanan
+                </th>
+                <th valign="middle">
+                    Son Güncellenme Tarihi
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td valign="middle" align="center">
+                        <h2>@Html.DisplayFor(modelItem => item.ServerIp)</h2>
+                    </td>
+                    <td valign="middle" align="center">
+                        @{ if (item.Available)
+                            {
+                                <img src="~/Content/Images/unlock.png" height="50" />
+                            }
+                            else
+                            {
+                                <img src="~/Content/Images/lock.png" height="50" />
+                            }
+                        }
+                    </td>
+                    <td valign="middle" align="center">
+                        @Html.DisplayFor(modelItem => item.ConnectedUser)
+                    </td>
+                    <td valign="middle" align="center">
+                        @Html.DisplayFor(modelItem => item.LastUpdate)
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
